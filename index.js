@@ -62,8 +62,9 @@ async function connectToMongoDb() {
   let mcDonald = client.db('Shops').collection('McDonald')
   let orders = client.db('Shops').collection('orders')
   let kfc = client.db('Shops').collection('KFC')
-  
-  return { client, mcDonald, orders, kfc }
+  let buffet = client.db('Shops').collection('buffet')
+
+  return { client, mcDonald, orders, kfc, buffet }
 }
 
 async function startServer() {

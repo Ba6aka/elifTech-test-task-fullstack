@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dilivery shopping cart</title>
+  <link rel="stylesheet" href="../shopping-cart.css">
+  <script defer type="module" src="../js/shopping-cart.js"></script>
+</head>
+
+<body>
+  <header>
+    <a href="/" class="shop-link">Shop</a>
+    <a href="/html/shopping-cart.html" class="cart-link">Shopping Cart</a>
+    <a href="/html/some.html">some</a>
+  </header>
+
+  <main>
+    <form action="javascript:">
+      <fieldset>
+        <label>
+          <span>Name:</span>
+          <input id="name" type="text">
+        </label>
+        <label>
+          <span>Adress:</span>
+          <input id="address" type="text">
+        </label>
+        <label>
+          <span>Email:</span>
+          <input id="email" type="text">
+        </label>
+        <label>
+          <span>Phone:</span>
+          <input id="phone" type="number">
+        </label>
+      </fieldset>
+      <fieldset class="order-list">
+        <ul class="order-items">
+        </ul>
+      </fieldset>
+      <div class="submit-container">
+        <span class="total-price">0 UAH</span>
+        <button id="submit" type="submit">SEND ORDER</button>
+      </div>
+
+    </form>
+
+  </main>
+
+</body>
+
+</html>

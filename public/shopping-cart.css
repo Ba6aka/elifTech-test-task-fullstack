@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+header a {
+  cursor: pointer;
+  color: blue;
+  font-size: 24px;
+  font-style: 500;
+  margin: 5px 10px 0px 0px;
+}
+
+header a:hover {
+  text-decoration: underline;
+  transition: all 0.5s;
+}
+
+main form {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+main form fieldset {
+  padding: 10px 10px;
+  flex-direction: column;
+  display: flex;
+  width: 50%;
+}
+
+fieldset{
+  margin-bottom: 10px;
+}
+
+main form .submit-container {
+  margin: 0 auto;
+}
+
+main form fieldset label {
+
+  margin-bottom: 40px;
+}
+
+.order-items{
+  max-height: 400px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.order-item{
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+main form fieldset label span {
+  font-size: 20px;
+}
+
+main form fieldset label input {
+  width: 400px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  padding: 10px 0px;
+  width: 70%;
+  margin-top: 10px;
+  border: solid 1px black;
+  display: flex;
+}
+
+li div {
+  width: 50%;
+}
+
+li .order-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

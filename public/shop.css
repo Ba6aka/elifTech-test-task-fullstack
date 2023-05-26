@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+}
+
+header a {
+  cursor: pointer;
+  color: blue;
+  font-size: 24px;
+  font-style: 500;
+  margin: 5px 10px 0px 0px;
+}
+
+header a:hover{
+  text-decoration: underline;
+  transition: all 0.5s;
+}
+
+main {
+  margin: 20px 0px 0px 0px;
+  display: flex;
+}
+
+.shops {
+  height: 500px;
+  margin: 0 auto;
+  margin: 0px 0px 0px 30px;
+  flex: 0 1 10%;
+  border: solid 1px black;
+  padding: 20px 20px 20px 20px;
+}
+
+.shops div {
+  cursor: pointer;
+  color: blue;
+  font-size: 24px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  border: solid 1px black;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.shops div:first-child {
+  cursor: auto;
+  border: none;
+}
+
+
+.shops .shop:hover {
+  background-color: yellow;
+  transition: all 0.5s;
+}
+
+
+.menu {
+  max-height: 540px;
+  overflow: auto;
+  flex-wrap:wrap ;
+  display: flex;
+  justify-content: center;
+  flex: 0 1 90%;
+  border: solid 1px black;
+  margin: 0px 10px 0px 0px;
+}
+
+.poduct-card{
+  padding-left: 10px;
+  cursor: pointer;
+  flex-direction: column;
+  display: flex;
+  max-height: 150px;
+  flex: 0 1 20%;
+  margin:10px 5px 10px 5px;
+  border: solid 1px black;
+}
+
+.poduct-card div{
+  flex: 0 1 50%;
+}
+
+.poduct-card .title{
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.poduct-card .card-bottom {
+  flex-direction: column;
+  display: flex;
+}
+
+button {
+  cursor: pointer;
+}
+
+.added{
+  color: green;
+  font-size: 20px;
+}
